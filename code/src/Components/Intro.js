@@ -10,4 +10,4 @@ const Popcorn = () => (
   </div>
 )
 
-export default Popcorn
+export default Popcorn;

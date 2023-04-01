@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Popcorn from './Intro';
 import Header from './Header';
 /* STARTPAGE */
-const MoviesList = () => {
+const MovieList = () => {
   const [list, setList] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -16,7 +16,7 @@ const MoviesList = () => {
         setList(data.results)
       })
   }
-  /* A call back function - this useEffect hook awakens the FetchMovies function above */
+  /* A call back function - this useEffect hook awakens functions above */
   useEffect(() => {
     FetchMovies()
     setLoading(true);
@@ -45,4 +45,4 @@ const MoviesList = () => {
   )
 }
 
-export default MoviesList;
+export default MovieList;
