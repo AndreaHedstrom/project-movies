@@ -1,7 +1,7 @@
 /* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Popcorn from './Intro';
+import Popcorn from './Popcorn';
 import Header from './Header';
 /* STARTPAGE */
 const MovieList = () => {
